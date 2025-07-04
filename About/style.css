@@ -37,9 +37,44 @@ a {
     gap: 150px;
 }
 
+.AbtWOBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightimg {
+    position: absolute;
+    right: -15px;
+    width: 120px;
+    height: 166.96px;
+    top: 150px;
+}
+
+.leftimg {
+    position: absolute;
+    top: -40px;
+    left: -160px;
+    width: 629.57px;
+    height: 592.01px;
+}
+
+.AboutPod {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .front {
-    margin: 0 auto;
+    margin: 0 auto 50px;
     background-color: #F7EDE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 600px;
 }
 
 button {
@@ -48,7 +83,9 @@ button {
     font-weight: 700;
     border-radius: 8px;
     border: 2px solid black;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.25)
 }
+
 
 h1 {
     justify-content: center;
@@ -80,6 +117,8 @@ h1 {
     background-color: #F7EDE8;
     width: 218px;
     height: 62px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .but4 {
@@ -88,10 +127,6 @@ h1 {
     width: 160px;
     height: 62px;
     margin-bottom: 150px;
-}
-
-.front {
-    text-align: center;
 }
 
 .about {
@@ -125,12 +160,19 @@ h1 {
     align-items: center;
 }
 
+.vihr {
+    position: absolute;
+    right: 1px;
+    width: 140px;
+}
+
 .numbers {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    position: relative;
 }
+
 
 .lettertext {
     font-size: 59.3px;
@@ -185,6 +227,16 @@ b {
     flex-direction: column;
 }
 
+.aboutandhistory {
+    margin-top: 70px;
+}
+
+.sparkleabout {
+    position: absolute;
+    margin-top: -75px;
+    left: 513px;
+}
+
 .coloumntext1 {
     width: 570px;
     height: 182px;
@@ -214,9 +266,7 @@ b {
 .founderpic {
     border-radius: 8px;
     display: flex;
-    width: 526px;
-    height: 488px;
-
+    margin-right: 10px;
 }
 .smilestar {
     display: flex;
@@ -230,6 +280,12 @@ b {
     align-items: center;
     flex-direction: row;
     gap: 20px;
+}
+
+.foahost {
+    position: absolute;
+    margin-top: -75px;
+    right: 500px;
 }
 
 .foundertext {
@@ -251,6 +307,64 @@ b {
     text-align: left;
 }
 
+.Sponsor {
+    margin-top: 150px;
+    width: auto;
+    height: auto;
+    background-color: #F7EDE8;
+    height:700px;
+}
+
+.sponsorh2 {
+    font-size: 59.3px;
+    letter-spacing: -2%;
+    font-family: Montserrat Alternates, monospace;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.sponsorsparkle {
+    position: absolute;
+    margin-top: 80px;
+    left: 510px;
+}
+
+.SponsorText {
+    font-family: Montserrat Alternates, monospace;
+    color: black;
+    text-align: center;
+    font-size: 22.65px;
+}
+
+.ExactSponsorText {
+    font-family: Montserrat Alternates, monospace;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ExactSponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.61px solid black;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.Sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
 .Send {
     font-weight: 500;
     font-size: 22.65px;
@@ -259,6 +373,23 @@ b {
     font-family: Montserrat Alternates, monospace;
     color: #4D4D4D;
     text-align: center;
+}
+
+.getintouchvector {
+    position: absolute;
+    right: 500px;
+}
+
+.shiningstars {
+    position: absolute;
+    right: 150px;
+    margin-top: -250px;
+}
+
+.vihr2 {
+    position: absolute;
+    left: 20px;
+    margin-bottom: -475px;
 }
 
 .userblock {
@@ -273,6 +404,7 @@ b {
     flex-direction: column;
     justify-content: center;
     display: flex; 
+    margin-bottom: 100px;
 }
 
 .tsmv {
@@ -336,6 +468,8 @@ input {
     width: 766px;
     height: 165px;
 }
+
+
 
 .viverra {
     width:176px;

@@ -3,66 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class = "container">
+    <div class="container">
         <div class="block-1">   
-            <div class = "header">
-                <div class = "navigation">
-                    <img src = "src/logo.svg">
+            <div class="header">
+                <div class="navigation">
+                    <img src="src/logo.svg">
                     <a href="#">Episodes</a>
-                    <a href="/About/About.html">About</a>
+                    <a href="About.html">About</a>
                     <a href="#">More</a>
                     <img src="src/Arrow - Down.svg">
                 </div>
                 <div class="buttons">
-                    <button type="button">RECENT EPISODES</button>
-                    <button type="button">SUBSCRIBE</button>
+                    <button class="outline">RECENT EPISODES</button>
+                    <button class="filled">SUBSCRIBE</button>
                 </div>
             </div>
             <div class="front-main">
                 <div class="logo-main">
-                    <img src="src/Hero Shape Swirl.svg">
-                    <h1>Your Daily Podcast</h1>
-                    <img src="src/Group 48095792.svg">
+                    <img class="lElemtnt" src="src/Hero Shape Swirl.svg">
+                    <div class="mainText-1">    
+                        <h1  class="mainText">Your Daily</h1>
+                        <h1  class="mainText-2">Podcast</h1>
+                    </div>
+                    <img class="rElement" src="src/Group 48095792.svg">
                 </div>    
-                <a href="#">We cover all kinds of categories and a weekly special guest.</a>
-                <button type="button">SUBSCRIBE</button>
-            </div>
+                <div class="text-2">   
+                    <a class="text-block-1">We cover all kinds of categories and</a>
+                    <a class="text-block-1">a weekly special guest.</a>
+                </div>
+                <button class="filled-2">SUBSCRIBE</button>
+            </div>    
             <div class="covers">
-                <img src="src/cover.svg">
-                <img src="src/cover(1).svg">
-                <img src="src/cover(2).svg">
-                <img src="src/cover(3).svg">
-                <img src="src/cover(4).svg">
+                <img class="photo" src="src/cover.svg">
+                <img class="photo" src="src/cover(1).svg">
+                <img class="photo" src="src/cover(2).svg">
+                <img class="photo" src="src/cover(3).svg">
+                <img class="photo" src="src/cover(4).svg">
             </div>
             <div class="patforms">
-                <a href="#">Supported by:</a>
-                <div class="logo-1">
-                    <img src="src/logo(1).svg">
-                    <a href="#">Spotify</a>
+                <a class="Supported-1">Supported by:</a>
+                <div class="block-0">
+                    <div class="logo-1">
+                        <img class="element-block-1" src="src/logo(1).svg">
+                        <a class="Supported-1" >Spotify</a>
+                    </div>
+                    <div class="logo-1">
+                        <img class="element-block-1" src="src/logo(2).svg">
+                        <a class="Supported-1">Google Podcast</a>
+                    </div>
+                    <div class="logo-1">
+                        <img class="element-block-1" src="src/path2.svg">
+                        <a class="Supported-1"  >Youtube</a>
+                    </div>    
                 </div>
-                <div class="logo-2">
-                    <img src="src/logo(2).svg">
-                    <a href="#">Google Podcast</a>
-                </div>
-                <div class="logo-3">
-                    <img src="src/path2.svg">
-                    <a href="#">Youtube</a>
-                </div>    
-            </div>
+            </div>    
         </div>
         <div class="block-2">
-            <h1>Talk. Listen. Get inspired by every minute of it.</h1>
+            <h1 class="text-block-2" >Talk. Listen. Get inspired by every minute of it.</h1>
             <div class="content">
                 <div class="content-1">
                     <img src="src/Illustration 01.svg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                    <p class="text-block-content-1" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
                 </div>
                 <div class="content-2">
                     <img src="src/Illustration 01.svg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                    <p class="text-block-content-1" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
                 </div>
             </div>
             <div class="quote">
@@ -70,11 +82,10 @@
                 <p>One of the best daily podcasts that covers every topic on Spotify.</p>
                 <div class="users-platform">
                     <div class="users">    
-                        <img src="src/avatar.svg">
+                        <img class="avatar-block-2" src="src/avatar.svg">
                         <p>John Smith,</p>
                     </div>
                     <div class="platform">
-                        <img src="src/Vector 4.svg">
                         <p>Social Community Manager</p>
                     </div>
                 </div>
@@ -166,7 +177,7 @@
             </div>
             <button type="button">SEE PRICING</button>
         </div>
-       <div class="block-5">
+        <div class="block-5">
             <div class="text-block-5">
                 <h1>Recent Episodes</h1>
                 <p>Available on your favorite platform</p>
@@ -184,8 +195,8 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">covid-19</button>
-                                <button type="button">health</button>
+                                <button type="button-block-6">covid-19</button>
+                                <button type="button-block-6">health</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -206,8 +217,8 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">automation</button>
-                                <button type="button">tech</button>
+                                <button type="button-block-6">automation</button>
+                                <button type="button-block-6">tech</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -228,7 +239,7 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">women’s rights</button>
+                                <button type="button-block-6">women’s rights</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -249,8 +260,8 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">self-esteem</button>
-                                <button type="button">health</button>
+                                <button type="button-block-6">self-esteem</button>
+                                <button type="button-block-6">health</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -271,8 +282,8 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">social class</button>
-                                <button type="button">wealth</button>
+                                <button type="button-block-6">social class</button>
+                                <button type="button-block-6">wealth</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -282,7 +293,7 @@
                     </div>
                 </div>
                 <div class="Cards-element-6">
-                    <div class="cover - title">
+                    <div class="cover-title">
                         <img src="src/cover-block-5-6.svg">
                         <div class="title - desc">
                             <div class="title-desc">
@@ -293,8 +304,8 @@
                         </div>
                         <div class="tags-hosted">
                             <div class="tags">
-                                <button type="button">mind-behaviour</button>
-                                <button type="button">health</button>
+                                <button type="button-block-6">mind-behaviour</button>
+                                <button type="button-block-6">health</button>
                             </div>
                             <div class="hosted">
                                 <p>Hosted by:</p>
@@ -305,7 +316,200 @@
                 </div>
             </div>
             <div class="button-block-5">
-                <button type="button">BROWSE ALL EPISODES</button>
+                <button type="button-block-6">BROWSE ALL EPISODES</button>
+            </div>
+        </div>
+        <div class="block-6">
+            <div class="title">
+                <h1>Become our sponsor</h1>
+                <p>Get exclusive episodes, merch and more</p>
+            </div>
+            <div class="prices-block">
+                <div class="prices-benefits-1">
+                    <div class="prices">
+                        <div class="title-block-6">
+                            <h2>Member</h2>
+                            <p>Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div class="button-price-block-6">
+                            <button type="button-block-6">SUBSCRIBE</button>
+                            <p>$9.99</p>
+                            <p>/month</p>
+                        </div>
+                    </div>
+                    <div class="benefits-block-6">
+                        <div class="title-benefits-block-6">
+                            <p>What’s included:</p>
+                            <div class="benefits">
+                                <p>• Exclusive Content</p>
+                                <p>• 5% Discount on Merch</p>
+                                <p>• Join the Community</p>
+                                <p>• Livestreaming Access</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prices-benefits-2">
+                    <div class="prices">
+                        <div class="title-block-6">
+                            <div class="title-block-6-2">
+                                <h2>Family</h2>
+                                <p>MOST POPULAR</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div class="button-price-block-6">
+                            <button type="button-block-6">SUBSCRIBE</button>
+                            <p>$14.99</p>
+                            <p>/month</p>
+                        </div>
+                    </div>
+                    <div class="benefits-block-6">
+                        <div class="title-benefits-block-6">
+                            <p>What’s included:</p>
+                            <div class="benefits">
+                                <p>• Everything in Tier 1</p>
+                                <p>• Free tickets to Events</p>
+                                <p>• Limited Edition Merch</p>
+                                <p>• Promote your Product</p>
+                                <p>• Request Topic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prices-benefits-3">
+                    <div class="prices">
+                        <div class="title-block-6">
+                            <h2>Official</h2>
+                            <p>Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div class="button-price-block-6">
+                            <button type="button-block-6">SUBSCRIBE</button>
+                            <p>$29.99</p>
+                            <p>/month</p>
+                        </div>
+                    </div>
+                    <div class="benefits-block-6">
+                        <div class="title-benefits-block-6">
+                            <p>What’s included:</p>
+                            <div class="benefits">
+                                <p>• Everything in Tier 2</p>
+                                <p>• Exclusive Badge on Livestreaming</p>
+                                <p>• Become an Official Sponsor</p>
+                                <p>• Early Access to All Episodes</p>
+                                <p>• Free Stikers and Merch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-7">
+            <div class="title-block-7">
+                <h1>Article and News</h1>
+                <p>News, tips, tricks and more</p>
+            </div>
+            <div class="hover">
+                <div class="hover-1">
+                    <img src="src/img_hover_1.svg">
+                    <div class="richtext">
+                        <div class="hover-1-title">
+                            <p>PODCAST</p>
+                            <p>Setup your own podcast</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...</p>
+                        <div class="footnote">
+                            <div class="tags-hover-1">
+                                <button type="button-tags">business</button>
+                                <button type="button-tags">startup</button>
+                            </div>
+                            <p>Sep 14, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hover-2">
+                    <img src="src/img_hover_2.svg">
+                    <div class="richtext">
+                        <div class="hover-2-title">
+                            <p>TIPS & TRICK</p>
+                            <p>Doodle artwork 101</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...</p>
+                        <div class="footnote">
+                            <div class="tags-hover-2">
+                                <button type="button-tags">art</button>
+                                <button type="button-tags">creative</button>
+                                <button type="button-tags">tips and trick</button>
+                            </div>
+                            <p>Sep 14, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button-block-7">art</button>
+            </div>
+        </div>
+        <div class="block-8">
+            <p>BETA</p>
+            <h1>Available now Pod of Cast App</h1>
+            <p>We just launched our podcast app!</p>
+            <button type="button-block-8">tips and trick</button>
+            <div class="Frame 19">
+                <p>Content also available on:</p>
+                <div class="logo-block-8">
+                    <img src="src/logo_block_8.svg">
+                    <img src="src/spotify_block_8.svg">
+                    <img src="src/Subtract_block_8.svg">
+                </div>
+            </div>
+        </div>
+        <div class="block-9">
+            <div class="block-9-element-1">   
+                <img src = "src/logo.svg">
+                <p>©2021.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="logo-element-1">
+                    <img src="src/twitter.svg">
+                    <img src="src/instagram.svg">
+                    <img src="src/tiktok.svg">
+                </div>
+            </div> 
+            <div class="block-9-element-2">
+                <p>About</p>
+                <p>Testimonials</p>
+                <p>Features</p>
+            </div>
+            <div class="block-9-element-3">
+                <p>Episodes</p>
+                <p>Pricing</p>
+                <p>Blog</p>
+            </div>
+            <div class="block-9-element-4">
+                <p>Listen to episodes on your fav platform:</p>
+                <div class="platform-1-block-9">
+                    <div class="block-9-logo-1">
+                        <img src="src/logo(1).svg">
+                        <a href="#">Spotify</a>
+                    </div>
+                    <div class="block-9-logo-2">
+                        <img src="src/logo(2).svg">
+                        <a href="#">Google Podcast</a>
+                    </div>
+                    <div class="block-9-logo-3">
+                        <img src="src/path2.svg">
+                        <a href="#">Youtube</a>
+                    </div>    
+                </div>
+                <div class="platform-2-block-9">
+                    <p>App available on:</p>
+                    <img src="src/platform.svg">
+                </div>
+            </div>
+            <div class="footnote">
+                <p>©2022. All Rights Reserved. Pod of Cast</p>
+                <div class="frame">
+                    <p>Terms</p>
+                    <p>Privacy</p>
+                </div>
             </div>
         </div>      
     </div>
